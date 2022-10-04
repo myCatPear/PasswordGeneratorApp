@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+
+[data-theme='dark'] {
+  --background-color: #171010;
+  --primary-color: #423F3E;
+  --secondary-color: #2B2B2B;
+  --accent-color: #D6D5A8;
+}
