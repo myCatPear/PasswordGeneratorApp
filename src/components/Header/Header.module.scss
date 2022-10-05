@@ -1,5 +1,12 @@
 .header {
-  color:var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  &__title {
+    font-size: 30px;
+    color:var(--title-color);
+  }
   &__lightSVG {
     fill: yellow;
   }

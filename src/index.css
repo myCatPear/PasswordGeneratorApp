@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -17,8 +13,9 @@
 }
 
 [data-theme='dark'] {
-  --background-color: #171010;
-  --primary-color: #423F3E;
-  --secondary-color: #2B2B2B;
-  --accent-color: #D6D5A8;
+  --background-color: #120F15;
+  --primary-color: #26232A;
+  --title-color: #7B767F;
+  --password-color:#524F56;
+  --text-color:#89D6B6;
 }

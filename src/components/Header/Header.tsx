@@ -22,7 +22,8 @@ export const Header: FC<IHeader> = ({theme, setTheme}) => {
             {
                 theme === DARK_THEME ?
                     <LightSvg className={style.header__lightSVG} onClick={onSetThemeSVGClick}/>
-                    : <DarkSvg className={style.header__darkSVG} onClick={onSetThemeSVGClick}/>}
+                    : <DarkSvg className={style.header__darkSVG} onClick={onSetThemeSVGClick}/>
+            }
 
         </header>
     );
