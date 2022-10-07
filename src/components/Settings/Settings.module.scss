@@ -2,4 +2,7 @@
   background-color: var(--primary-color);
   padding: 20px 20px;
   color:var(--text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

@@ -20,7 +20,7 @@ export const PasswordLength: FC<IPasswordLength> = (props) => {
         <>
             <div className={style.passwordLength}>
                 <span>Character length</span>
-                <span>{passwordLength}</span>
+                <span className={style.passwordLength__number}>{passwordLength}</span>
             </div>
 
             <input

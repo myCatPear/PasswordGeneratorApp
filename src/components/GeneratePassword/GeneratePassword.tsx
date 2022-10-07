@@ -22,7 +22,7 @@ export const GeneratePassword:FC<IGeneratePassword> = (props) => {
     return (
         <>
             <div className={style.generate}>
-                <button onClick={onGeneratePasswordButtonClick}>generate</button>
+                <button className={style.button} onClick={onGeneratePasswordButtonClick}>generate</button>
             </div>
         </>
     );
