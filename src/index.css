@@ -6,10 +6,12 @@
 }
 
 :root {
-  --background-color: white;
-  --primary-color: black;
-  --secondary-color: royalblue;
-  --accent-color: purple;
+  --background-color: #96ebdd;
+  --primary-color: #ffffff;
+  --title-color: #170e1f;
+  --password-color:#524F56;
+  --text-color: #408569;
+  --button-color:#6DFFBE;
 }
 
 [data-theme='dark'] {

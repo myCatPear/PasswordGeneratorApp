@@ -22,7 +22,6 @@ export const StrengthOfPassword:FC<IStrengthOfPassword> = (props) => {
                     <li className={`${style.scale__item} ${passwordStrength > 1 && style.secondLevel}`}></li>
                     <li className={`${style.scale__item} ${passwordStrength > 2 && style.thirdLevel}`}></li>
                     <li className={`${style.scale__item} ${passwordStrength > 3 && style.fourthLevel}`}></li>
-
                 </ul>
             </div>
         </>

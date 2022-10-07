@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   gap: 20px;
   &__title {
     font-size: 30px;
@@ -9,8 +9,10 @@
   }
   &__lightSVG {
     fill: yellow;
+    cursor: pointer;
   }
   &__darkSVG {
     fill: black;
+    cursor: pointer;
   }
 }
